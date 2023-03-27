@@ -46,6 +46,10 @@ namespace Vasilev_IS_19_Bilet_7
 
             amountInput.Controls[0].Visible = false; //Отключение стрелок для NumericUpDown
 
+            //Вывод картинки на форму
+            pictureBox2.Image = Image.FromFile(Environment.CurrentDirectory + "\\..\\Resources\\Театр3.jpg");
+            
+
             //Лист Представлений
             List<Perfomance> listOfPerfomance = new List<Perfomance>();
 
